@@ -1,0 +1,48 @@
+/* Bootstrap adjustments for better spacing on mobile */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px; /* Space above */
+        margin-bottom: 20px; /* Space below */
+        padding-top: 20px; /* Optional padding inside */
+        padding-bottom: 20px;
+    }
+}
+
+
+body {
+  background-color: #d6cfff;
+}
+.result-card {
+  background: linear-gradient(to bottom, #6542f4, #7d5dfb);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+.score-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #3c2fcc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.summary-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.score-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+}
